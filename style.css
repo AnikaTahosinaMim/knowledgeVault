@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inter_regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter_semi_bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter_bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  padding: 20px 120px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.nav ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0px;
+  padding: 25px 0px;
+  text-align: center;
+  font-size: 16px;
+}
+.btn {
+
+  padding: 0px;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  background-color: #30b868;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+}
+.btn:hover {
+  background-color: bisque;
+  color: black;
+}
+.one-section {
+  background-image: url("./B13-A01-Knowledge-Vault/assets/hero-bg.png");
+  height: 850px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section-text {
+  padding: 70px 134px 120px 120px;
+  text-align: center;
+}
+.btn-02 {
+  width: 183px;
+  height: 30px;
+  background-color: #ffffff;
+  font-size: 13px;
+  border-radius: 25px;
+  color: #30b868;
+}
+.btn-02:hover {
+  background-color: #30b868;
+  color: bisque;
+}
+
+.btn-03 {
+  width: 189px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #30b868;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.btn-03:hover {
+  background-color: bisque;
+  color: #000000;
+}
+.btn-04 {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19px;
+  border: 2px solid white;
+  width: 136px;
+  height: 40px;
+  border-radius: 5px;
+  background: none;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.section-text h2 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.text-01 {
+  color: white;
+}
+.text-02 {
+  color: #30b868;
+}
+.section-text p {
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 24px;
+  color: #ffffff;
+}
+/* section {
+  background-color: rgb(110, 39, 39);
+  padding-top: 1px;
+} */
+.container h2 p {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.card {
+  width: 300px;
+  height: 280px;
+  background-color: whitesmoke;
+  justify-items: center;
+  align-content: center;
+  border-radius: 5px;
+}
+.main-container{
+    margin: 0px auto;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.decoration{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(201, 46, 98);
+
+}
+.card p{
+    text-align: center;
+}
+.card h4{
+    padding: 16px 0px;
+    font-size: 24px ;
+    font-weight: bold;
+}
+.main-div{
+    width: 1600px;
+    height: 850px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 50px;
+}
+.main-div h2{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+.p-01{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 20px;
+}
+.text-color{
+    color: #30b868;
+    font-size: 15px;
+}
