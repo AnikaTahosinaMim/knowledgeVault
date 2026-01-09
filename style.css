@@ -51,6 +51,7 @@
   border: none;
   color: #ffffff;
   font-weight: 600;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
 }
 .btn:hover {
@@ -164,6 +165,8 @@
 }
 .card p{
     text-align: center;
+   font-family: "Inter", sans-serif;
+   font-weight: 400px;
 }
 .card h4{
     padding: 16px 0px;
@@ -199,3 +202,64 @@
     color: #30b868;
     font-size: 15px;
 }
+.chan-container{
+ width: 1300px;
+ height: 300px;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+  background-color: #F7F6F2;
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+.chan-font{
+  text-align: center;
+  padding: 80px 0px 40px;
+
+}
+.chan-font h3{
+  margin-bottom: 15px;
+   font-family: "Inter", sans-serif;
+   font-weight: 600px;
+   font-size: 30px;
+}
+.chan-font p{
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 23px;
+  color: #627382;
+   font-family: "Inter", sans-serif;
+  
+}
+.chan-font button{
+  margin-bottom: 15px;
+}
+.footer-main{
+  height: 350px;
+  background-color: rgba(16, 48, 63, 0.993);
+
+}
+.footer-conteiner{
+  
+  display: flex;
+  padding: 120px 120px 80px 120px;
+  justify-content: space-between;
+
+}
+.footer-conteiner P{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500px;
+  font-family: "Inter", sans-serif; 
+  margin-bottom: 10px;
+
+}
+.footer-font i{
+  gap: 20px;
+}
+.for-hr{
+  padding: 0px 120px ;
+  color: blueviolet;
+}
+
+
