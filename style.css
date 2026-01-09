@@ -250,3 +250,7 @@ footer hr {
 .footer-gap{
     margin-bottom: 10px;
 }
+.no-design{
+    text-decoration: none;
+    color: #FFFFFF;
+}
